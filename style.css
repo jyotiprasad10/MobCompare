@@ -1,0 +1,136 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(192, 83, 20);
+    text-align: center;
+    padding: 10px;
+   
+    }
+    h3{
+        color: rgb(193, 33, 140);
+        text-align: center;
+        padding: 15px;
+    }
+body{
+    background-image: url(wall.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+.menu-bar{
+    background-color: antiquewhite;
+    text-align: left;
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.menu-bar ul li:hover{
+    background-color: rgb(109, 217, 109);
+    border-radius: 5px;
+    padding: 15px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: azure;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    background: transparent;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover{
+    font-size: 15px;
+}
+
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 134px;
+    background: rgb(139, 234, 139);
+    
+}
+.hover-me:hover .sub-menu-2 ul li{
+    font-size: 15px;
+}
+.hover-m:hover .sub-menu-2:last-child{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 10px;
+    background: rgb(139, 234, 139);
+}
+.hover-m:hover .sub-menu-2:last-child ul li{
+   font-size: 15px;
+   font-family: sans-serif;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover .sub-menu-2 ul li{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover .sub-menu-2 ul li:hover{
+    font-size: 25px;
+    
+}
+.yes{
+    height: 700px;
+    width: 33%;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.sub-menu-3{
+    display: none;
+}
+.hover-compare:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -80px;
+    background: rgb(135, 240, 227);
+
+}
+.hover-compare:hover .sub-menu-3 ul{
+    display: block;
+    margin: 15px;
+}
+.hover-compare:hover .sub-menu-3 ul li:hover{
+    background: transparent;
+    font-size: 25px;
+}
